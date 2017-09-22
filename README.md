@@ -1,6 +1,4 @@
 # The-Enigma
-Recreating the WW2 Enigma machine:
-
 This project involves building a simulator for a generalized version of the Enigma (which itself had several different versions.) My Enigma takes descriptions of possible initial configurations of the machine and messages to encode or decode (the Enigma algorithms were reciprocal, meaning that encryption is its own inverse operation.) 
 
 The Enigmas effect a substitution cipher, on the letters of a message. That is, at any given time, the machine performs a permutation---a one-to-one mapping---of the alphabet onto itself. The alphabet consists solely of the 26 letters in one case (there were various conventions for spaces and punctuation).  Plain substitution ciphers are easy to break. The Enigma, however, implements a progressive substitution, different for each subsequent letter of the message. This made decryption considerably more difficult.  
